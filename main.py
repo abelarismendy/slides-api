@@ -15,6 +15,7 @@ class Presentation:
 presentations = {
     "1": Presentation("1", "Presentacion 1", 2, ["s1.jpg", "s2.jpg"]),
     "2": Presentation("2", "Presentacion 2", 2, []),
+    "3": Presentation("3", "Presentacion 3", 7, ["s1.jpg", "s2.jpg", "s3.jpg", "s4.jpg", "s5.jpg", "s6.jpg", "s7.jpg"]),
 }
 
 @app.get("/presentacion/")
